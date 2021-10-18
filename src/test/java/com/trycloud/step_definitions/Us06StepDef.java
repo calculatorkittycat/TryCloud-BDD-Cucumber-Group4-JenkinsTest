@@ -90,10 +90,10 @@ public class Us06StepDef {
 
     }
 
-    @Then("Verify the file is displayed on the page")
-    public void verifyTheFileIsDisplayedOnThePage() {
+    //@Then("Verify the file is displayed on the page")
+    //public void verifyTheFileIsDisplayedOnThePage() {
 
 
 
-    }
+    //}
 }

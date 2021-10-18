@@ -20,7 +20,7 @@ public class FilesPage {
 
     public WebElement filesBtn;
 
-    WebElement filesBtn;
+    //WebElement filesBtn;
 
 
     public void clickFilesBtn(){
@@ -47,7 +47,7 @@ public class FilesPage {
     @FindBy(xpath = "//li[@class=' action-favorite-container']")
     WebElement removeFromFavorite;
 
-  
+
     @FindBy(xpath = "//span[@class='icon icon-add']")
     public WebElement createNewFolderBtn;
 
@@ -134,3 +134,4 @@ public class FilesPage {
 
 
 }
+
