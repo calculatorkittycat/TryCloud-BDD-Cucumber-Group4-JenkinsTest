@@ -29,8 +29,8 @@ import org.junit.runner.RunWith;
 
        
 
-        dryRun = false
-                   , tags = "@us13"
+        dryRun = true
+                   , tags = "@robot"
 
 )
 public class TestRunner {

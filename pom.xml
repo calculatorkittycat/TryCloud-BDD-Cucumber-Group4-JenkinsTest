@@ -63,28 +63,17 @@
 
     <build>
         <plugins>
-            <!--   sure fire plugin to run unit test         -->
-            <!--   lots of configuration options available to instruct maven to run test in certain way-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M5</version>
-
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
-                    <runOrder>Alphabetical</runOrder>
-                    <parallel>methods</parallel>
-                    <useUnlimitedThreads>true</useUnlimitedThreads>
                     <includes>
-                        <include>**/*TestRunner.java</include>
-                        <!-- <include>**/*FailedTestRunner.java</include> -->
+                        <include>**/*CukesRunner.java</include>
                     </includes>
                 </configuration>
-
             </plugin>
-
         </plugins>
-
     </build>
 
 </project>
